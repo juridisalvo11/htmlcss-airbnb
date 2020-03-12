@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: absolute;
+    margin-left: 50%;
+    transform:translateX(-50%);
+
+}
+
+div {
+
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    padding-top: 75px;
+    background-size:cover;
+
+}
+#roma {
+    background-image: url(https://img.huffingtonpost.com/asset/5cc20eee2400005500e4f80b.jpeg?ops=scalefit_630_noupscale);
+}
+
+#amsterdam {
+    background-image: url(https://content.skyscnr.com/fa0912c6ed6f75f0607dfc080359a021/amsterdam.jpg)
+}
+
+#londra {
+    background-image: url(https://images.musement.com/cover/0002/49/big-ben-westminster-bridge-on-river-thames-in-london-jpg_header-148518.jpeg?&q=60&fit=crop&lossless=true&auto=format&w=412&h=250);
+}
