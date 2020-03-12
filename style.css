@@ -4,30 +4,83 @@
     box-sizing: border-box;
 }
 
-main {
+body {
+    position:relative
+}
+
+#layover {
+    background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
-    margin-left: 50%;
-    transform:translateX(-50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+header {
+    background-image: url(https://www.wowtravel.it/wp-content/uploads/2018/07/upload474untitleddesign17.jpg);
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#roma {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    position:absolute;
+    position:relative;
 
 }
 
 div {
-
-    width: 300px;
-    height: 250px;
-    border: 2px solid black;
-    padding-top: 75px;
-    background-size:cover;
-
+    position: relative;
 }
-#roma {
-    background-image: url(https://img.huffingtonpost.com/asset/5cc20eee2400005500e4f80b.jpeg?ops=scalefit_630_noupscale);
+
+section {
+    background-image: url(https://content.skyscnr.com/fa0912c6ed6f75f0607dfc080359a021/amsterdam.jpg);
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-top: 10px;
+
 }
 
 #amsterdam {
-    background-image: url(https://content.skyscnr.com/fa0912c6ed6f75f0607dfc080359a021/amsterdam.jpg)
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+article {
+    background-image: url(https://www.myenglishschool.it/magazine/wp-content/uploads/2016/10/Vita-a-Londra-1.jpg);
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    position:absolute;
+    margin-top: 10px;
 }
 
 #londra {
-    background-image: url(https://images.musement.com/cover/0002/49/big-ben-westminster-bridge-on-river-thames-in-london-jpg_header-148518.jpeg?&q=60&fit=crop&lossless=true&auto=format&w=412&h=250);
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
